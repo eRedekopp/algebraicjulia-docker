@@ -1,0 +1,24 @@
+using Pkg
+Pkg.add(url="https://github.com/AlgebraicJulia/AlgebraicABMs.jl.git")
+Pkg.add(url="https://github.com/AlgebraicJulia/StateCharts.jl.git")
+Pkg.add.([
+    "AlgebraicRewriting",
+    "Catlab",
+    "GATLab",
+    "Graphs",
+    "Reexport",
+    "StatsBase",
+    "AlgebraicPetri",
+    "CairoMakie",
+    "Colors",
+    "DataMigrations",
+    "Distributions",
+    "Documenter",
+    "GLMakie",
+    "GeometryBasics",
+    "GraphPlot",
+    "Literate",
+    "Makie",
+    "NetworkLayout",
+    "Reexport"
+])

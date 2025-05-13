@@ -1,4 +1,3 @@
-
 FROM julia
 
 # Global setup

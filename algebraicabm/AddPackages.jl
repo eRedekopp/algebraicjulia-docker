@@ -1,10 +1,8 @@
 using Pkg
-Pkg.add(url="https://github.com/AlgebraicJulia/AlgebraicABMs.jl.git")
-Pkg.add(url="https://github.com/AlgebraicJulia/StateCharts.jl.git")
 Pkg.add.([
     "AlgebraicRewriting",
     "Catlab",
-    "GATLab",
+    "GATlab",
     "Graphs",
     "Reexport",
     "StatsBase",
@@ -20,5 +18,10 @@ Pkg.add.([
     "Literate",
     "Makie",
     "NetworkLayout",
-    "Reexport"
+    "CompetingClocks",
+    "DataStructures",
+    "IJulia"
 ])
+
+Pkg.develop(path="/root/AlgebraicABMs")
+#Pkg.develop(path="/root/StateCharts")
